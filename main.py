@@ -11,6 +11,7 @@ def translate_text():
 
 # Create window
 root = tk.Tk()
+root.geometry("800x500")
 root.title("Language Translator")
 root.geometry("400x400")
 
@@ -22,7 +23,7 @@ input_text = tk.Text(root, height=5)
 input_text.pack()
 
 # Language input
-tk.Label(root, text="Target Language (ta, hi, fr):").pack()
+tk.Label(root, text="Target Language  (ta, hi, fr):").pack()
 lang_entry = tk.Entry(root)
 lang_entry.pack()
 
